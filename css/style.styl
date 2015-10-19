@@ -176,9 +176,9 @@ a
 								color white
 
 				.section-image-info:hover
-					background rojoC
 					li
-						background rojo
+						span
+							font-size 17px
 				
 						
 
@@ -206,6 +206,7 @@ a
 				margin-left 15px
 				font-family 'Open Sans Condensed', sans-serif
 				margin 10px 20px
+				color #585858
 				
 				.icon-facebook
 					color white
@@ -239,6 +240,8 @@ a
 	li
 		display inline-block
 		margin 30px 30px 0 0
+		visibility hidden
+		opacity .1
 		img
 			width 300px
 			height 200px
@@ -301,19 +304,23 @@ a
 	display block
 	border-bottom 5px solid
 	border-color rojo
+	
+	
 	ul
 		text-align center
-		li
+		.projectos-imagenes-element
 			margin-left -5px
 			display inline
+			visibility hidden
+			opacity 0
 			img
-				width 212px
+				width 15%
 				height 212px
 			span
 				color gris
 				position absolute
 				font-size 30px
-				margin-left -125px
+				margin-left -8%
 				margin-top 100px
 				opacity .4
 			
@@ -337,18 +344,22 @@ a
 	
 	
 	.trabajamos-info
-		margin-left 200px
+		margin-left 0
 		text-align center
-		float left
-		width 30%
+		//float left
+		width 60%
 		height 100%
+		visibility hidden
+		opacity 0
 		
-		ul 
+		.lista-como-trabajamos
+			
 			li
 				margin-bottom 20px
 				background rojoC
-				width 45%
+				width 20%
 				display inline-block
+				margin-left 2%
 				img
 					width 71px
 					height 66px
@@ -361,20 +372,23 @@ a
 				
 				
 			.plus-li
-				width 10%
+				width 5%
 				background none
-				
+				vertical-align middle
+
 				span
-					font-size 25px
-					color #6E6E6E
+					font-size 40px
+					//color #6E6E6E
+					color rojo
 					
 
 	.proveedores-info
-		margin-right 200px
+		visibility hidden
 		text-align center
-		float right
-		width 30%
-		height 590px
+		opacity 0
+		width 60%
+		height 100%
+		margin-left 20%
 		img
 			width 512px
 			height 312px

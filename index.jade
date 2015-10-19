@@ -17,12 +17,18 @@ html
 
     link(rel="stylesheet", href="css/jquery.bxslider.css")
 
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+    link(rel="stylesheet", href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css")
 
-    script(src='http://code.jquery.com/ui/1.9.2/jquery-ui.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+    script(src='http://code.jquery.com/jquery-1.10.2.js')
+    script(src='http://code.jquery.com/ui/1.11.4/jquery-ui.js')
+
 
     script(type='text/javascript', src='scripts/script.js')
     script(type='text/javascript', src='scripts/jquery.bxslider.min.js')
+    script(type='text/javascript', src='scripts/toggle-script.js')
+
+
   body
     header
       section.header-top
@@ -150,9 +156,9 @@ html
                     span.icon-phone
 
       section.slide-foot
-        h2 Are you interested in an estimate?
+        h2.slide-foot-h2 Are you interested in an estimate?
     
-        section
+        section.slide-foot-options
           a(href='')
             span GET A QUOTE
         
@@ -225,27 +231,27 @@ html
 
     section.projectos-imagenes
       ul
-        li
+        li.projectos-imagenes-element
           img(src='img/imagen2.jpg', alt='')
           span.icon-search
     
-        li
+        li.projectos-imagenes-element
           img(src='img/imagen2.jpg', alt='')
           span.icon-search
     
-        li
+        li.projectos-imagenes-element
           img(src='img/imagen2.jpg', alt='')
           span.icon-search
     
-        li
+        li.projectos-imagenes-element
           img(src='img/imagen2.jpg', alt='')
           span.icon-search
     
-        li
+        li.projectos-imagenes-element
           img(src='img/imagen2.jpg', alt='')
           span.icon-search
     
-        li
+        li.projectos-imagenes-element
           img(src='img/imagen2.jpg', alt='')
           span.icon-search
 
@@ -258,7 +264,7 @@ html
           | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliq
     
        
-        ul
+        ul.lista-como-trabajamos
           li
             img(src="img/quienes-1.svg", alt="")
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -268,16 +274,18 @@ html
           li
             img(src="img/quienes-2.svg", alt="")
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-          
+          li(class="plus-li")
+            span(class="icon-plus") 
           li
             img(src="img/quienes-3.svg", alt="")
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-           li(class="plus-li")
-            span(class="icon-plus")
+          
           li
             img(src="img/quienes-4.svg", alt="")
             p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+          li(class="plus-li")
+            span(class="icon-plus")
          
           li
             img(src="img/quienes-5.svg", alt="")
