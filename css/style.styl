@@ -6,8 +6,7 @@ body
 	margin 0
 	font-family Raleway,arial,sans-serif
 	
-ul 
-	list-style none
+
 a
 	text-decoration none
 
@@ -35,7 +34,7 @@ a
 			margin-left 5px	
 		
 			
-		.icon-drawer, .icon-users
+		.icon-users
 			padding 8px
 			transition background 1s
 			border-radius 50%
@@ -43,7 +42,7 @@ a
 
 .header-top-right
 	float right
-	margin-right 100px
+	margin-right 2%
 	li
 		margin-left 10px
 		
@@ -61,18 +60,8 @@ a
 			transition background 1s
 			transition color 1s
 			font-size 18px
-
-		.icon-search
-			padding 8px
-			border-radius 50%
-			background rojo
-			color #fff
-			border 1px solid
-			border-color rojo
-			transition background 1s
-			transition color 1s
-			font-size 18px
-		.icon-facebook, .icon-twitter, .icon-google, .icon-youtube
+		.icon-facebook
+			margin-left 10%
 			border 1px solid
 			border-radius 50%
 			padding 5px
@@ -80,8 +69,7 @@ a
 			transition background 1s
 			transition color 1s
 			font-size 18px	
-	.social-icon
-		margin 0		
+			
 .header-bottom
 	display inline-block
 	width 100%
@@ -225,10 +213,10 @@ a
 			
 
 .servicios-section
-	height 469px
+	height 100%
 	display block
 	text-align center
-	margin-bottom 100px
+	
 	font-family 'Open Sans Condensed', sans-serif
 	h2
 		font-size 30px
@@ -237,32 +225,29 @@ a
 		font-size 20px
 		
 	
-	li
-		display inline-block
-		margin 30px 30px 0 0
-		visibility hidden
-		opacity .1
-		img
-			width 300px
-			height 200px
-		h3
-			text-align left
-			color rojo
-			position absolute
-			border-top 5px solid
-			border-color rojo
-			padding 30px
-			padding-left 0
-			margin-top -9px
-			margin-left 10px
-			font-size 19px
-		p
-			margin-top 60px
-			width 290px
-			text-align left
-			font-size 15px
-			
-
+	ul
+		
+		.servicios-item
+			display inline-block
+			width 30%
+			section
+				text-align left
+				img
+					width 90%
+					height 90%
+				h3
+					font-size 30px
+					border-top 4px solid rojo
+					width 80%
+					margin-top -1.2%
+				section 
+					margin-left 2%
+					
+							
+							
+								
+						
+	
 
 .proyectos-title
 	display block
@@ -274,36 +259,16 @@ a
 		color #fff
 		padding 30px
 		text-align center	
-.proyectos-categorias
-	display block
-	text-align center
-	margin-top -20px
-	padding-bottom 20px
-	padding-top 20px
-	background #333
-	opacity 1
-	font-family 'Open Sans Condensed', sans-serif
-	font-size 23px
-	
-	span
-		color gris
-		margin-left 20px
-		padding-bottom 10px
-		margin-right 20px
-		font-size 20px
-	span:hover
-		border-bottom 5px solid
-		border-color rojo
-			
-			
+
 		
 .projectos-imagenes
 	height 212px
 	background #333
-	margin-top -16px
+	margin-top -20px
 	display block
 	border-bottom 5px solid
 	border-color rojo
+	ma
 	
 	
 	ul
@@ -356,10 +321,11 @@ a
 			
 			li
 				margin-bottom 20px
-				background rojoC
-				width 20%
+				background #FA5858
+				width 25%
 				display inline-block
 				margin-left 2%
+				vertical-align middle
 				img
 					width 71px
 					height 66px
@@ -369,6 +335,7 @@ a
 					color white
 					width 95%
 					padding 5px
+					height 80px
 				
 				
 			.plus-li
@@ -389,9 +356,24 @@ a
 		width 60%
 		height 100%
 		margin-left 20%
-		img
-			width 512px
-			height 312px
+		margin-bottom 50px
+		ul
+			list-style none
+			margin-top 100px
+			display: block;
+			
+			li
+				display inline-block
+				vertical-align top
+				width 30%
+				height 100%
+				text-align center
+				text-align center
+				img
+					margin 50px
+			li:first-child
+				border-bottom 2px solid gris
+				border-right 2px solid gris
 .footer-top
 	position relative
 	display block
