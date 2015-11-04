@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title
+
+    meta(charset='utf-8')
+
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    link(rel='stylesheet', type='text/css', href='../css/style.css')
+
+    link(rel='stylesheet', type='text/css', href='../css/icon-style.css')
+
+    link(rel='stylesheet', type='text/css', href='../css/normalize.css')
+
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300', rel='stylesheet', type='text/css')
+
+    link(rel="stylesheet", href="../css/jquery.bxslider.css")
+
+    link(rel="stylesheet", href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css")
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+    script(src='http://code.jquery.com/jquery-1.10.2.js')
+    script(src='http://code.jquery.com/ui/1.11.4/jquery-ui.js')
+
+
+    script(type='text/javascript', src='../scripts/script.js')
+    script(type='text/javascript', src='../scripts/jquery.bxslider.min.js')
+    script(type='text/javascript', src='../scripts/toggle-script.js')
+
+
+  body
+    header
+      section.header-bottom
+        section.header-bottom-left
+          a(href="../index.html")
+            img.logo-image(src='../img/logo-quimec.jpg')
+    
+        section.header-bottom-right
+          ul
+            li.border-nav
+              a(href='quienes-somos.html') ¿Quiénes Somos?
+        
+            li.border-nav
+              a(href='servicios.html') Servicios
+
+            li.border-nav
+              a(href='proyectos.html') Proyectos
+        
+        
+            li.border-nav
+              a(href='contacto.html') Contacto
+    section.info-proyectos
+      ul.bxslider
+          li
+            img(src="../img/nosotros-slide.jpg", alt="")
+           
+          li
+            img(src="../img/revolucion-monumento-slide.jpg", alt="")
+           
+          li          
+            img(src="../img/proyectos-slide.jpg", alt="")

@@ -13,7 +13,10 @@ module.exports = function(grunt) {
         },
         files: {
           'index.html': 'index.jade',
-          'html/quienes-somos.html':'html/quienes-somos.jade'
+          'html/quienes-somos.html':'html/quienes-somos.jade',
+          'html/contacto.html':'html/contacto.jade',
+          'html/servicios.html':'html/servicios.jade',
+          'html/proyectos.html':'html/proyectos.jade'
         }
 
       } 
@@ -45,7 +48,10 @@ module.exports = function(grunt) {
             stylesheets: {
                 files: ['css/style.styl',
                         'index.jade',
-                        'html/quienes-somos.jade'],
+                        'html/quienes-somos.jade',
+                        'html/contacto.jade',
+                        'html/servicios.jade',
+                        'html/proyectos.jade'],
 
                 tasks: ['stylus','jade'],
                 options: {

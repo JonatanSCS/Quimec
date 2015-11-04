@@ -27,6 +27,10 @@ html
     script(type='text/javascript', src='../scripts/script.js')
     script(type='text/javascript', src='../scripts/jquery.bxslider.min.js')
     script(type='text/javascript', src='../scripts/toggle-script.js')
+    script(type='text/javascript', src='http://maps.googleapis.com/maps/api/js')
+    script(type='text/javascript', src='../scripts/mapa-ubicacion.js')
+
+
 
 
   body
@@ -75,7 +79,7 @@ html
         section.header-bottom-right
           ul
             li.border-nav
-              a(href='') ¿Quiénes Somos?
+              a(href='quienes-somos.html') ¿Quiénes Somos?
         
             li.border-nav
               a(href='servicios.html') Servicios
@@ -83,69 +87,65 @@ html
             li.border-nav
               a(href='proyectos.html') Proyectos
         
-        
             li.border-nav
-              a(href='contacto.html') Contacto
+              a(href='') Contacto
         
     section.slide-section
       section.slide-section-image
-        img(src="../img/nosotros-slide.jpg", alt="")
+        img(src="../img/proyectos-slide.jpg", alt="")
         section.section-image-info
-          h3 Acerca de nosotros 
-          p  Somos una empresa mexicana dedicada a la venta y aplicación de productos terminados y químicos para la industria de la construcción
+          h3 Contáctanos
+          p ¡Solicita asesoría de un experto ahora! Conoce nuestros medios de contacto!
           ul
             li
               a(href="")
-                span.icon-drawer
+                span.icon-bubble
             li
               a(href="")
-                span.icon-users
+                span.icon-location
             li
               a(href="")
-                span.icon-facebook
-    section.info-quienes-somos
-      section.documentos-PDF
-        h2 CV de Quimec
-        div 
-          a(href="../PDF.jpg.zip") PDF
-          span.icon-drawer
-    section.clientes-quimec
-      h2 Clientes
-      ul.slider-clientes
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-        li
-          img(src="../img/sika-proveedor.png", alt="")
-    section.mejor-opcion
-      h2 Somos tu mejor opción
-      span  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, ad.
-      ul
-        li
-          span.icon-clock
-          span Trabajos a tiempo
-          p  Nuestro equipo realizará sus proyectos en tiempo y forma de acuerdo a su presupuesto. Puede estar seguro de que nuestra empresa lo hará realidad
-        li
-          span.icon-phone
-          span Siempre disponibles
-          p  Estamos a su disposición en el momento que nos necesite. Póngase en contacto con nosotros para solicitar una cotización sobre cualquier proyecto.
-        li
-          span.icon-users
-          span Profesionalismo
-          p  Profesionalismo en nuestro trabajo. Siempre puede contar con Quimec. Contamos con un equipo de profesionales dispuestos a crear su proyecto.
+                span.icon-phone
+    section.info-contacto
+      section.map-contenedor
+        section(id="map")
+      section.datos-contacto
+        h2 Contáctanos
+        p Lorem ipsum dolor sit amet.
+        ul
+          li
+            section.icon-section
+              span.icon-location
+            section.datos-contacto-elemento
+              h5 Dirección
+              span Av. De los Arcos No. 46 Col. Ampliación de los Remedios, Naucalpan, Edo. Mex. C.P. 53400
+          li
+            section.icon-section
+              span.icon-phone
+            section.datos-contacto-elemento
+              h5 Teléfono
+              span 01(55) 5312 6216
+          li
+            section.icon-section
+              span.icon-bubble
+            section.datos-contacto-elemento
+              h5 Correo
+              span contacto@quimec.com.mx
+          li
+            section.icon-section
+              span.icon-clock
+            section.datos-contacto-elemento
+              h5 Horario
+              span Lun - Sab 9am-6pm
+      section.mail-section
+        h3 Envianos un Mail
+        span  Lorem ipsum dolor sit amet, consectetur adipisicing.
+
+
+
+
+
+      
       
       
     footer
