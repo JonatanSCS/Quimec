@@ -139,14 +139,34 @@ html
               span Lun - Sab 9am-6pm
       section.mail-section
         h3 Envianos un Mail
-        span  Lorem ipsum dolor sit amet, consectetur adipisicing.
-
-
-
-
-
-      
-      
+        form
+          table
+            tr
+              td.td-label
+                label Nombre
+            tr
+              td
+                input(type="text", maxlenght="50", size="25")
+            tr
+              td.td-label
+                label Dirección de E-mail 
+            tr
+              td
+                input(type="text", name="email" maxlength="80", size="35")
+            tr
+              td.td-label
+                label Numero de teléfono
+            
+            tr
+              td
+                input(type="text", name="telephone". maxlength="25", size="15")
+            tr
+              td.td-label
+                label Comentarios
+            tr
+              td.text-area
+                textarea(name="comments", maxlength="500", cols="30", rows="5")
+          button Enviar
       
     footer
       section.footer-top
