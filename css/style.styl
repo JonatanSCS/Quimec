@@ -72,7 +72,9 @@ a
 .header-bottom
 	display inline-block
 	width 100%
-	height 131px
+	height 105px
+	border-bottom 1px solid gris
+	
 	
 	section
 		display inline-block
@@ -115,47 +117,50 @@ a
 		width 100%
 		height 400px
 	.section-image-info
-		position absolute
-		margin-top -20%
-		margin-left 10%
-		width 30%
-		background rojo
-		padding 2%
-		box-shadow 6px 6px 3px #2E2E2E
-		opacity .9
-		
-		h3
-			padding 2%
-			color white
-			opacity 1
-			border-bottom 6px solid rojoC
-			width 60%
-			font-size 28px
-			font-weight 300
-			
-			margin 0
-			margin-bottom -16px
+					position absolute
+					margin-top -350px
+					margin-left 10%
+					width 30%
+					background rgba(230, 0, 0, .75)
+					padding 2%
+					box-shadow 6px 6px 3px #2E2E2E
+					
+					h3
+						padding 2%
+						color white
+						opacity 1
+						border-bottom 6px solid rojoC
+						width 80%
+						font-size 28px
+						font-weight 300
+						
+						margin 0
+						margin-bottom -16px
+					p
+						width 80%
+						text-align left
+						opacity 1
+						color white
+						font-size 14px
+						font-weight 300
+						border-top 1px solid gris
+						padding-top 20px
+					ul
+						margin 10%
+						margin-left 0
+						li
+							display inline
+							margin 10%
+							border-radius 50%
+							padding 5%
+							background rojoC
+							span
+								color white
 
-		p
-			width 70%
-			text-align left
-			opacity 1
-			color white
-			font-size 14px
-			font-weight 300
-			border-top 1px solid gris
-			padding-top 20px
-		ul
-			margin 10%
-			margin-left 0
-			li
-				display inline
-				margin 10%
-				border-radius 50%
-				padding 5%
-				background rojoC
-				span
-					color white
+				.section-image-info:hover
+					li
+						span
+							font-size 17px
 
 	.section-image-info:hover
 		li
@@ -171,13 +176,13 @@ a
 					height 500px
 				.section-image-info
 					position absolute
-					margin-top -25%
+					margin-top -350px
 					margin-left 10%
 					width 30%
-					background rojo
+					background rgba(230, 0, 0, .8)
 					padding 2%
 					box-shadow 6px 6px 3px #2E2E2E
-					opacity .9
+
 					height 40%
 					
 					h3
@@ -185,14 +190,14 @@ a
 						color white
 						opacity 1
 						border-bottom 6px solid rojoC
-						width 60%
+						width 80%
 						font-size 28px
 						font-weight 300
 						
 						margin 0
 						margin-bottom -16px
 					p
-						width 70%
+						width 80%
 						text-align left
 						opacity 1
 						color white
@@ -543,6 +548,7 @@ a
 				display block
 				color gris
 				margin-bottom 70px
+				
 			span
 				color rojoC
 				font-weight 700
@@ -551,8 +557,66 @@ a
 				margin-left 10%
 				width 80%
 				
-				text-align center
+				text-align justify
+		li:hover
+			.icon-clock, .icon-phone, .icon-users
+				font-size 100px
+				display block
+				color rojoC
+				margin-bottom 70px
+			
+.info-proyectos
+	margin-top 10px
+	margin-bottom 50px
+	padding-top 25px
+	padding-bottom 25px
+	h1
+		font-size 40px
+		margin 40px
+		width 220px
+		padding-bottom 10px
+		font-weight 200
+		padding-left 10px
 
+	.proyectos-info-elementos
+		background gris
+		padding-top 50px
+		padding-bottom 65px
+		border-top 3px solid #A4A4A4
+		
+		
+		
+		.proyecto-info
+			width 22%
+			height 300px
+			display inline-block
+			margin-left 2%
+			margin-top 20px
+			box-shadow 4px 4px 6px #848484
+			
+			img
+				width 100%
+				height 100%
+			div
+				width 22%
+				height 50px
+				background rgba(234, 234, 234, 0.5)
+				margin-top -54px
+				position absolute
+				vertical-align middle
+				span 
+					margin-left 10px
+					
+					font-size 15px
+
+		.proyecto-info:hover
+			box-shadow 7px 7px 10px #848484
+			
+			div
+				background rgba(230, 0, 0, .5)
+
+				
+			
 					
 .info-contacto
 	width 70%
@@ -648,9 +712,6 @@ a
 				
 					
 				
-			
-			
-
 
 .info-servicios
 	width 100%
@@ -672,6 +733,7 @@ a
 			margin-left 0
 			width 50%
 			display inline-block
+			text-align left
 			
 			img
 				width 100%
